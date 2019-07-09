@@ -1,0 +1,32 @@
+body{
+    background-color: #ecf0f1;
+}
+
+main{
+    height: 85vh;
+}
+
+main article{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    width: 50vw;
+    margin:5rem auto;
+    color: white;
+    /* background-color: #2980b9; */
+    visibility: hidden;
+}
+
+.output-text{
+    padding: 1.5rem;
+    text-align: center;
+}
